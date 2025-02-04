@@ -1,5 +1,10 @@
 /.idea
 /.vscode
-/.vs
+*/.vs
+NugetGenerator/obj
+NugetGenerator/bin/Debug/*
+NugetGenerator/bin/Release/*
+!NugetGenerator/bin/Debug/*.nupkg
+!NugetGenerator/bin/Release/*.nupkg
 /target
 Cargo.lock

@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+      <LangVersion>13</LangVersion>
+      
+    <Title>CS2DumperOffsets</Title>
+    <Description>Package containing offsets from A2X's CS2 dumper.</Description>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/a2x/cs2-dumper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>a2x;cs2;dumper;offsets</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageOutputPath>$(OutputPath)</PackageOutputPath>
+    <PackageId>CS2Dumper</PackageId>
+    <Authors>$(Authors)</Authors>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\output\*.cs" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
