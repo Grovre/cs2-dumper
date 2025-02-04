@@ -14,7 +14,7 @@
     <PackageTags>a2x;cs2;dumper;offsets</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageOutputPath>..</PackageOutputPath>
+    <PackageOutputPath>$(OutputPath)</PackageOutputPath>
     <PackageId>CS2Dumper</PackageId>
     <Authors>$(Authors)</Authors>
     <Company />

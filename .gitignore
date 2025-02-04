@@ -2,6 +2,10 @@
 /.vscode
 */.vs
 NugetGenerator/obj
-NugetGenerator/bin
+NugetGenerator/bin/Debug
+NugetGenerator/bin/Release/netstandard2.1/*
+!NugetGenerator/bin/Release/netstandard2.1/*.deps.json
+!NugetGenerator/bin/Release/netstandard2.1/*.dll
+!NugetGenerator/bin/Release/netstandard2.1/*.pdb
 /target
 Cargo.lock
