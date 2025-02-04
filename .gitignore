@@ -2,9 +2,6 @@
 /.vscode
 */.vs
 NugetGenerator/obj
-NugetGenerator/bin/Debug/*
-NugetGenerator/bin/Release/*
-!NugetGenerator/bin/Debug/*.nupkg
-!NugetGenerator/bin/Release/*.nupkg
+NugetGenerator/bin
 /target
 Cargo.lock
