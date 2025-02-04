@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-04 05:39:19.129208900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1302,7 +1302,7 @@ pub mod cs2_dumper {
             pub mod CSequenceUpdateNode {
                 pub const m_hSequence: usize = 0x70; // HSequence
                 pub const m_duration: usize = 0x74; // float32
-                pub const m_paramSpans: usize = 0x78; // CParamSpanUpdater
+                pub const m_paramSpans: usize = 0x78; // 
                 pub const m_tags: usize = 0x90; // CUtlVector<TagSpan_t>
             }
             // Parent: CNmPoseNode__CDefinition
@@ -1337,7 +1337,7 @@ pub mod cs2_dumper {
                 pub const m_hParameterWeaponDepenetrationDistance: usize = 0x74; // CAnimParamHandle
                 pub const m_hParameterWeaponDepenetrationDelta: usize = 0x76; // CAnimParamHandle
                 pub const m_hParameterCameraClearanceDistance: usize = 0x78; // CAnimParamHandle
-                pub const m_opFixedSettings: usize = 0x80; // AimCameraOpFixedSettings_t
+                pub const m_opFixedSettings: usize = 0x80; // 
             }
             // Parent: None
             // Field count: 11
@@ -1462,7 +1462,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CMotionGraph {
-                pub const m_paramSpans: usize = 0x10; // CParamSpanUpdater
+                pub const m_paramSpans: usize = 0x10; // 
                 pub const m_tags: usize = 0x28; // CUtlVector<TagSpan_t>
                 pub const m_pRootNode: usize = 0x40; // CSmartPtr<CMotionNode>
                 pub const m_nParameterCount: usize = 0x48; // int32
@@ -2850,7 +2850,7 @@ pub mod cs2_dumper {
             pub mod CBlend2DUpdateNode {
                 pub const m_items: usize = 0x60; // CUtlVector<BlendItem_t>
                 pub const m_tags: usize = 0x78; // CUtlVector<TagSpan_t>
-                pub const m_paramSpans: usize = 0x90; // CParamSpanUpdater
+                pub const m_paramSpans: usize = 0x90; // 
                 pub const m_nodeItemIndices: usize = 0xA8; // CUtlVector<int32>
                 pub const m_damping: usize = 0xC0; // CAnimInputDamping
                 pub const m_blendSourceX: usize = 0xD0; // AnimValueSource
@@ -3017,7 +3017,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CParamSpanUpdater {
-                pub const m_spans: usize = 0x0; // CUtlVector<ParamSpan_t>
+                pub const m_spans: usize = 0x0; // 
             }
             // Parent: None
             // Field count: 0
@@ -3397,7 +3397,7 @@ pub mod cs2_dumper {
                 pub const m_footInfo: usize = 0x0; // CUtlVector<FootFixedData_t>
                 pub const m_hipDampingSettings: usize = 0x18; // CAnimInputDamping
                 pub const m_nHipBoneIndex: usize = 0x28; // int32
-                pub const m_ikSolverType: usize = 0x2C; // IKSolverType
+                pub const m_ikSolverType: usize = 0x2C; // 
                 pub const m_bApplyTilt: usize = 0x30; // bool
                 pub const m_bApplyHipDrop: usize = 0x31; // bool
                 pub const m_bAlwaysUseFallbackHinge: usize = 0x32; // bool
@@ -3870,12 +3870,12 @@ pub mod cs2_dumper {
                 pub const m_bActiveListening: usize = 0x8; // bool
                 pub const m_bActiveTalking: usize = 0x9; // bool
                 pub const m_layerAnimations: usize = 0x10; // CUtlVector<MoodAnimation_t>
-                pub const m_flIntensity: usize = 0x28; // CRangeFloat
-                pub const m_flDurationScale: usize = 0x30; // CRangeFloat
+                pub const m_flIntensity: usize = 0x28; // 
+                pub const m_flDurationScale: usize = 0x30; // 
                 pub const m_bScaleWithInts: usize = 0x38; // bool
-                pub const m_flNextStart: usize = 0x3C; // CRangeFloat
-                pub const m_flStartOffset: usize = 0x44; // CRangeFloat
-                pub const m_flEndOffset: usize = 0x4C; // CRangeFloat
+                pub const m_flNextStart: usize = 0x3C; // 
+                pub const m_flStartOffset: usize = 0x44; // 
+                pub const m_flEndOffset: usize = 0x4C; // 
                 pub const m_flFadeIn: usize = 0x54; // float32
                 pub const m_flFadeOut: usize = 0x58; // float32
             }
@@ -4016,7 +4016,7 @@ pub mod cs2_dumper {
                 pub const m_bMoveVarsDisabled: usize = 0x68; // bool
                 pub const m_bNetworkPath: usize = 0x69; // bool
                 pub const m_bNetworkFacing: usize = 0x6A; // bool
-                pub const m_paramHandles: usize = 0x6B; // CAnimParamHandle[30]
+                pub const m_paramHandles: usize = 0x6B; // 
             }
             // Parent: CModelConfigElement
             // Field count: 1
@@ -4119,7 +4119,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CFootStride {
-                pub const m_definition: usize = 0x0; // CFootCycleDefinition
+                pub const m_definition: usize = 0x0; // 
                 pub const m_trajectories: usize = 0x40; // CFootTrajectories
             }
             // Parent: CNmEvent
@@ -4413,7 +4413,7 @@ pub mod cs2_dumper {
                 pub const m_pTextureAtlas: usize = 0x48; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_FlexDesc: usize = 0x50; // CUtlVector<CFlexDesc>
                 pub const m_FlexControllers: usize = 0x68; // CUtlVector<CFlexController>
-                pub const m_FlexRules: usize = 0x80; // CUtlVector<CFlexRule>
+                pub const m_FlexRules: usize = 0x80; // 
             }
             // Parent: CNmBoolValueNode__CDefinition
             // Field count: 1
@@ -4855,7 +4855,7 @@ pub mod cs2_dumper {
                 pub const m_boneNames: usize = 0x40; // CUtlVector<CUtlString>
                 pub const m_children: usize = 0x58; // CUtlVector<CUtlVector<int32>>
                 pub const m_parents: usize = 0x70; // CUtlVector<int32>
-                pub const m_feet: usize = 0x88; // CUtlVector<CAnimFoot>
+                pub const m_feet: usize = 0x88; // 
                 pub const m_morphNames: usize = 0xA0; // CUtlVector<CUtlString>
                 pub const m_lodBoneCounts: usize = 0xB8; // CUtlVector<int32>
             }
@@ -5849,7 +5849,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod ParamSpan_t {
-                pub const m_samples: usize = 0x0; // CUtlVector<ParamSpanSample_t>
+                pub const m_samples: usize = 0x0; // 
                 pub const m_hParam: usize = 0x18; // CAnimParamHandle
                 pub const m_eParamType: usize = 0x1A; // AnimParamType_t
                 pub const m_flStartCycle: usize = 0x1C; // float32
@@ -5867,7 +5867,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 5
             pub mod IKTargetSettings_t {
-                pub const m_TargetSource: usize = 0x0; // IKTargetSource
+                pub const m_TargetSource: usize = 0x0; // 
                 pub const m_Bone: usize = 0x8; // IKBoneNameAndIndex_t
                 pub const m_AnimgraphParameterNamePosition: usize = 0x18; // AnimParamID
                 pub const m_AnimgraphParameterNameOrientation: usize = 0x1C; // AnimParamID
@@ -6192,7 +6192,7 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 3
             pub mod IKSolverSettings_t {
-                pub const m_SolverType: usize = 0x0; // IKSolverType
+                pub const m_SolverType: usize = 0x0; // 
                 pub const m_nNumIterations: usize = 0x4; // int32
                 pub const m_EndEffectorRotationFixUpMode: usize = 0x8; // EIKEndEffectorRotationFixUpMode
             }

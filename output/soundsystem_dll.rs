@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-04 05:39:19.129208900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -560,7 +560,7 @@ pub mod cs2_dumper {
                 pub const m_flLowCutoffFreq: usize = 0x18; // float32
                 pub const m_flHighCutoffFreq: usize = 0x1C; // float32
                 pub const m_bPeakMode: usize = 0x20; // bool
-                pub const m_bandDesc: usize = 0x24; // VMixDynamicsBand_t[3]
+                pub const m_bandDesc: usize = 0x24; // 
             }
             // Parent: None
             // Field count: 6
@@ -779,7 +779,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CSosSoundEventGroupListSchema {
-                pub const m_groupList: usize = 0x0; // CUtlVector<CSosSoundEventGroupSchema>
+                pub const m_groupList: usize = 0x0; // 
             }
             // Parent: CSosGroupBranchPattern
             // Field count: 5

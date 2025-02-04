@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-04 05:39:19.129208900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -30,7 +30,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum BoneTransformSpace_t : uint {
-            BoneTransformSpace_Invalid = 0xFFFFFFFFFFFFFFFF,
+            BoneTransformSpace_Invalid = unchecked((uint)-1),
             BoneTransformSpace_Parent = 0x0,
             BoneTransformSpace_Model = 0x1,
             BoneTransformSpace_World = 0x2
@@ -72,7 +72,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 1
         // Member count: 6
         public enum MovementGait_t : byte {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = unchecked((byte)-1),
             eSlow = 0x0,
             eMedium = 0x1,
             eFast = 0x2,
@@ -343,7 +343,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum ModelBoneFlexComponent_t : uint {
-            MODEL_BONE_FLEX_INVALID = 0xFFFFFFFFFFFFFFFF,
+            MODEL_BONE_FLEX_INVALID = unchecked((uint)-1),
             MODEL_BONE_FLEX_TX = 0x0,
             MODEL_BONE_FLEX_TY = 0x1,
             MODEL_BONE_FLEX_TZ = 0x2
@@ -671,7 +671,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 2
         // Member count: 3
         public enum AnimScriptType : ushort {
-            ANIMSCRIPT_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
+            ANIMSCRIPT_TYPE_INVALID = unchecked((ushort)-1),
             ANIMSCRIPT_FUSE_GENERAL = 0x0,
             ANIMSCRIPT_FUSE_STATEMACHINE = 0x1
         }
@@ -725,7 +725,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum HandshakeTagType_t : uint {
-            eInvalid = 0xFFFFFFFFFFFFFFFF,
+            eInvalid = unchecked((uint)-1),
             eTask = 0x0,
             eMovement = 0x1,
             eCount = 0x2
@@ -733,7 +733,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 18
         public enum ParticleAttachment_t : uint {
-            PATTACH_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PATTACH_INVALID = unchecked((uint)-1),
             PATTACH_ABSORIGIN = 0x0,
             PATTACH_ABSORIGIN_FOLLOW = 0x1,
             PATTACH_CUSTOMORIGIN = 0x2,
@@ -887,7 +887,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 5
         public enum ModelConfigAttachmentType_t : uint {
-            MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF,
+            MODEL_CONFIG_ATTACHMENT_INVALID = unchecked((uint)-1),
             MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0,
             MODEL_CONFIG_ATTACHMENT_ROOT_RELATIVE = 0x1,
             MODEL_CONFIG_ATTACHMENT_BONEMERGE = 0x2,
@@ -1205,7 +1205,7 @@ namespace CS2Dumper.Schemas {
         public static class CSequenceUpdateNode {
             public const nint m_hSequence = 0x70; // HSequence
             public const nint m_duration = 0x74; // float32
-            public const nint m_paramSpans = 0x78; // CParamSpanUpdater
+            public const nint m_paramSpans = 0x78; // 
             public const nint m_tags = 0x90; // CUtlVector<TagSpan_t>
         }
         // Parent: CNmPoseNode__CDefinition
@@ -1240,7 +1240,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_hParameterWeaponDepenetrationDistance = 0x74; // CAnimParamHandle
             public const nint m_hParameterWeaponDepenetrationDelta = 0x76; // CAnimParamHandle
             public const nint m_hParameterCameraClearanceDistance = 0x78; // CAnimParamHandle
-            public const nint m_opFixedSettings = 0x80; // AimCameraOpFixedSettings_t
+            public const nint m_opFixedSettings = 0x80; // 
         }
         // Parent: None
         // Field count: 11
@@ -1365,7 +1365,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CMotionGraph {
-            public const nint m_paramSpans = 0x10; // CParamSpanUpdater
+            public const nint m_paramSpans = 0x10; // 
             public const nint m_tags = 0x28; // CUtlVector<TagSpan_t>
             public const nint m_pRootNode = 0x40; // CSmartPtr<CMotionNode>
             public const nint m_nParameterCount = 0x48; // int32
@@ -2753,7 +2753,7 @@ namespace CS2Dumper.Schemas {
         public static class CBlend2DUpdateNode {
             public const nint m_items = 0x60; // CUtlVector<BlendItem_t>
             public const nint m_tags = 0x78; // CUtlVector<TagSpan_t>
-            public const nint m_paramSpans = 0x90; // CParamSpanUpdater
+            public const nint m_paramSpans = 0x90; // 
             public const nint m_nodeItemIndices = 0xA8; // CUtlVector<int32>
             public const nint m_damping = 0xC0; // CAnimInputDamping
             public const nint m_blendSourceX = 0xD0; // AnimValueSource
@@ -2920,7 +2920,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CParamSpanUpdater {
-            public const nint m_spans = 0x0; // CUtlVector<ParamSpan_t>
+            public const nint m_spans = 0x0; // 
         }
         // Parent: None
         // Field count: 0
@@ -3300,7 +3300,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_footInfo = 0x0; // CUtlVector<FootFixedData_t>
             public const nint m_hipDampingSettings = 0x18; // CAnimInputDamping
             public const nint m_nHipBoneIndex = 0x28; // int32
-            public const nint m_ikSolverType = 0x2C; // IKSolverType
+            public const nint m_ikSolverType = 0x2C; // 
             public const nint m_bApplyTilt = 0x30; // bool
             public const nint m_bApplyHipDrop = 0x31; // bool
             public const nint m_bAlwaysUseFallbackHinge = 0x32; // bool
@@ -3773,12 +3773,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_bActiveListening = 0x8; // bool
             public const nint m_bActiveTalking = 0x9; // bool
             public const nint m_layerAnimations = 0x10; // CUtlVector<MoodAnimation_t>
-            public const nint m_flIntensity = 0x28; // CRangeFloat
-            public const nint m_flDurationScale = 0x30; // CRangeFloat
+            public const nint m_flIntensity = 0x28; // 
+            public const nint m_flDurationScale = 0x30; // 
             public const nint m_bScaleWithInts = 0x38; // bool
-            public const nint m_flNextStart = 0x3C; // CRangeFloat
-            public const nint m_flStartOffset = 0x44; // CRangeFloat
-            public const nint m_flEndOffset = 0x4C; // CRangeFloat
+            public const nint m_flNextStart = 0x3C; // 
+            public const nint m_flStartOffset = 0x44; // 
+            public const nint m_flEndOffset = 0x4C; // 
             public const nint m_flFadeIn = 0x54; // float32
             public const nint m_flFadeOut = 0x58; // float32
         }
@@ -3919,7 +3919,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bMoveVarsDisabled = 0x68; // bool
             public const nint m_bNetworkPath = 0x69; // bool
             public const nint m_bNetworkFacing = 0x6A; // bool
-            public const nint m_paramHandles = 0x6B; // CAnimParamHandle[30]
+            public const nint m_paramHandles = 0x6B; // 
         }
         // Parent: CModelConfigElement
         // Field count: 1
@@ -4022,7 +4022,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CFootStride {
-            public const nint m_definition = 0x0; // CFootCycleDefinition
+            public const nint m_definition = 0x0; // 
             public const nint m_trajectories = 0x40; // CFootTrajectories
         }
         // Parent: CNmEvent
@@ -4316,7 +4316,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_pTextureAtlas = 0x48; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_FlexDesc = 0x50; // CUtlVector<CFlexDesc>
             public const nint m_FlexControllers = 0x68; // CUtlVector<CFlexController>
-            public const nint m_FlexRules = 0x80; // CUtlVector<CFlexRule>
+            public const nint m_FlexRules = 0x80; // 
         }
         // Parent: CNmBoolValueNode__CDefinition
         // Field count: 1
@@ -4758,7 +4758,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_boneNames = 0x40; // CUtlVector<CUtlString>
             public const nint m_children = 0x58; // CUtlVector<CUtlVector<int32>>
             public const nint m_parents = 0x70; // CUtlVector<int32>
-            public const nint m_feet = 0x88; // CUtlVector<CAnimFoot>
+            public const nint m_feet = 0x88; // 
             public const nint m_morphNames = 0xA0; // CUtlVector<CUtlString>
             public const nint m_lodBoneCounts = 0xB8; // CUtlVector<int32>
         }
@@ -5752,7 +5752,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class ParamSpan_t {
-            public const nint m_samples = 0x0; // CUtlVector<ParamSpanSample_t>
+            public const nint m_samples = 0x0; // 
             public const nint m_hParam = 0x18; // CAnimParamHandle
             public const nint m_eParamType = 0x1A; // AnimParamType_t
             public const nint m_flStartCycle = 0x1C; // float32
@@ -5770,7 +5770,7 @@ namespace CS2Dumper.Schemas {
         // Parent: None
         // Field count: 5
         public static class IKTargetSettings_t {
-            public const nint m_TargetSource = 0x0; // IKTargetSource
+            public const nint m_TargetSource = 0x0; // 
             public const nint m_Bone = 0x8; // IKBoneNameAndIndex_t
             public const nint m_AnimgraphParameterNamePosition = 0x18; // AnimParamID
             public const nint m_AnimgraphParameterNameOrientation = 0x1C; // AnimParamID
@@ -6095,7 +6095,7 @@ namespace CS2Dumper.Schemas {
         // Parent: None
         // Field count: 3
         public static class IKSolverSettings_t {
-            public const nint m_SolverType = 0x0; // IKSolverType
+            public const nint m_SolverType = 0x0; // 
             public const nint m_nNumIterations = 0x4; // int32
             public const nint m_EndEffectorRotationFixUpMode = 0x8; // EIKEndEffectorRotationFixUpMode
         }

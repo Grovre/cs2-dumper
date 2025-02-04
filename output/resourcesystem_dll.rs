@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-04 05:39:19.129208900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -137,9 +137,9 @@ pub mod cs2_dumper {
                 pub const m_constants: usize = 0x0; // CUtlVector<ConstantInfo_t>
                 pub const m_variables: usize = 0x18; // CUtlVector<VariableInfo_t>
                 pub const m_functions: usize = 0x30; // CUtlVector<FunctionInfo_t>
-                pub const m_constantMap: usize = 0x48; // CUtlHashtable<CUtlStringToken,int32>
-                pub const m_variableMap: usize = 0x68; // CUtlHashtable<CUtlStringToken,int32>
-                pub const m_functionMap: usize = 0x88; // CUtlHashtable<CUtlStringToken,int32>
+                pub const m_constantMap: usize = 0x48; // 
+                pub const m_variableMap: usize = 0x68; // 
+                pub const m_functionMap: usize = 0x88; // 
             }
             // Parent: None
             // Field count: 0
@@ -330,8 +330,8 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CFuseProgram {
                 pub const m_programBuffer: usize = 0x0; // CUtlVector<uint8>
-                pub const m_variablesRead: usize = 0x18; // CUtlVector<FuseVariableIndex_t>
-                pub const m_variablesWritten: usize = 0x30; // CUtlVector<FuseVariableIndex_t>
+                pub const m_variablesRead: usize = 0x18; // 
+                pub const m_variablesWritten: usize = 0x30; // 
                 pub const m_nMaxTempVarsUsed: usize = 0x48; // int32
             }
             // Parent: None

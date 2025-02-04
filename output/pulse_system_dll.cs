@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-04 05:39:19.129208900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -40,7 +40,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 21
         public enum PulseValueType_t : uint {
-            PVAL_INVALID = 0xFFFFFFFFFFFFFFFF,
+            PVAL_INVALID = unchecked((uint)-1),
             PVAL_BOOL = 0x0,
             PVAL_INT = 0x1,
             PVAL_FLOAT = 0x2,
@@ -161,7 +161,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 4
         // Member count: 4
         public enum PulseDomainValueType_t : uint {
-            INVALID = 0xFFFFFFFFFFFFFFFF,
+            INVALID = unchecked((uint)-1),
             ENTITY_NAME = 0x0,
             PANEL_ID = 0x1,
             COUNT = 0x2
@@ -732,12 +732,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_nReg0 = 0x8; // PulseRuntimeRegisterIndex_t
             public const nint m_nReg1 = 0xA; // PulseRuntimeRegisterIndex_t
             public const nint m_nReg2 = 0xC; // PulseRuntimeRegisterIndex_t
-            public const nint m_nInvokeBindingIndex = 0x10; // PulseRuntimeInvokeIndex_t
+            public const nint m_nInvokeBindingIndex = 0x10; // 
             public const nint m_nChunk = 0x14; // PulseRuntimeChunkIndex_t
             public const nint m_nDestInstruction = 0x18; // int32
             public const nint m_nCallInfoIndex = 0x1C; // PulseRuntimeCallInfoIndex_t
-            public const nint m_nConstIdx = 0x20; // PulseRuntimeConstantIndex_t
-            public const nint m_nDomainValueIdx = 0x22; // PulseRuntimeDomainValueIndex_t
+            public const nint m_nConstIdx = 0x20; // 
+            public const nint m_nDomainValueIdx = 0x22; // 
             public const nint m_nBlackboardReferenceIdx = 0x24; // PulseRuntimeBlackboardReferenceIndex_t
         }
         // Parent: None

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-04 05:39:19.129208900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -33,7 +33,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 2
         // Member count: 10
         public enum VMixFilterType_t : ushort {
-            FILTER_UNKNOWN = 0xFFFFFFFFFFFFFFFF,
+            FILTER_UNKNOWN = unchecked((ushort)-1),
             FILTER_LOWPASS = 0x0,
             FILTER_HIGHPASS = 0x1,
             FILTER_BANDPASS = 0x2,
@@ -544,7 +544,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flLowCutoffFreq = 0x18; // float32
             public const nint m_flHighCutoffFreq = 0x1C; // float32
             public const nint m_bPeakMode = 0x20; // bool
-            public const nint m_bandDesc = 0x24; // VMixDynamicsBand_t[3]
+            public const nint m_bandDesc = 0x24; // 
         }
         // Parent: None
         // Field count: 6
@@ -763,7 +763,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CSosSoundEventGroupListSchema {
-            public const nint m_groupList = 0x0; // CUtlVector<CSosSoundEventGroupSchema>
+            public const nint m_groupList = 0x0; // 
         }
         // Parent: CSosGroupBranchPattern
         // Field count: 5

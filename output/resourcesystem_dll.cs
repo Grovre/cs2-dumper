@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 01:41:17.126927400 UTC
+// 2025-02-04 05:39:19.129208900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: resourcesystem.dll
@@ -132,9 +132,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_constants = 0x0; // CUtlVector<ConstantInfo_t>
             public const nint m_variables = 0x18; // CUtlVector<VariableInfo_t>
             public const nint m_functions = 0x30; // CUtlVector<FunctionInfo_t>
-            public const nint m_constantMap = 0x48; // CUtlHashtable<CUtlStringToken,int32>
-            public const nint m_variableMap = 0x68; // CUtlHashtable<CUtlStringToken,int32>
-            public const nint m_functionMap = 0x88; // CUtlHashtable<CUtlStringToken,int32>
+            public const nint m_constantMap = 0x48; // 
+            public const nint m_variableMap = 0x68; // 
+            public const nint m_functionMap = 0x88; // 
         }
         // Parent: None
         // Field count: 0
@@ -325,8 +325,8 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CFuseProgram {
             public const nint m_programBuffer = 0x0; // CUtlVector<uint8>
-            public const nint m_variablesRead = 0x18; // CUtlVector<FuseVariableIndex_t>
-            public const nint m_variablesWritten = 0x30; // CUtlVector<FuseVariableIndex_t>
+            public const nint m_variablesRead = 0x18; // 
+            public const nint m_variablesWritten = 0x30; // 
             public const nint m_nMaxTempVarsUsed = 0x48; // int32
         }
         // Parent: None
