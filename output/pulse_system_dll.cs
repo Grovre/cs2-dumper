@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-04 05:39:19.129208900 UTC
+// 2025-02-07 00:13:21.027238900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -175,7 +175,7 @@ namespace CS2Dumper.Schemas {
         // MPulseCellMethodBindings
         // MPulseCellOutflowHookInfo
         public static class CPulseCell_Step_PublicOutput {
-            public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
+            public const nint m_OutputIndex = 0x48; // 
         }
         // Parent: CPulseCell_BaseValue
         // Field count: 0
@@ -732,12 +732,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_nReg0 = 0x8; // PulseRuntimeRegisterIndex_t
             public const nint m_nReg1 = 0xA; // PulseRuntimeRegisterIndex_t
             public const nint m_nReg2 = 0xC; // PulseRuntimeRegisterIndex_t
-            public const nint m_nInvokeBindingIndex = 0x10; // 
+            public const nint m_nInvokeBindingIndex = 0x10; // PulseRuntimeInvokeIndex_t
             public const nint m_nChunk = 0x14; // PulseRuntimeChunkIndex_t
             public const nint m_nDestInstruction = 0x18; // int32
             public const nint m_nCallInfoIndex = 0x1C; // PulseRuntimeCallInfoIndex_t
             public const nint m_nConstIdx = 0x20; // 
-            public const nint m_nDomainValueIdx = 0x22; // 
+            public const nint m_nDomainValueIdx = 0x22; // PulseRuntimeDomainValueIndex_t
             public const nint m_nBlackboardReferenceIdx = 0x24; // PulseRuntimeBlackboardReferenceIndex_t
         }
         // Parent: None
