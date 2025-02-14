@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-07 00:13:21.027238900 UTC
+// 2025-02-14 17:50:36.879912800 UTC
 
 #pragma once
 
@@ -1722,7 +1722,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CMorphData {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_morphRectDatas = 0x8; // 
+                constexpr std::ptrdiff_t m_morphRectDatas = 0x8; // CUtlVector<CMorphRectData>
             }
             // Parent: CUnaryUpdateNode
             // Field count: 4
@@ -3422,7 +3422,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nYTopDst = 0x2; // int16
                 constexpr std::ptrdiff_t m_flUWidthSrc = 0x4; // float32
                 constexpr std::ptrdiff_t m_flVHeightSrc = 0x8; // float32
-                constexpr std::ptrdiff_t m_bundleDatas = 0x10; // 
+                constexpr std::ptrdiff_t m_bundleDatas = 0x10; // CUtlVector<CMorphBundleData>
             }
             // Parent: None
             // Field count: 5
@@ -3924,7 +3924,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bMoveVarsDisabled = 0x68; // bool
                 constexpr std::ptrdiff_t m_bNetworkPath = 0x69; // bool
                 constexpr std::ptrdiff_t m_bNetworkFacing = 0x6A; // bool
-                constexpr std::ptrdiff_t m_paramHandles = 0x6B; // CAnimParamHandle[30]
+                constexpr std::ptrdiff_t m_paramHandles = 0x6B; // 
             }
             // Parent: CModelConfigElement
             // Field count: 1
@@ -4316,11 +4316,11 @@ namespace cs2_dumper {
             namespace CMorphSetData {
                 constexpr std::ptrdiff_t m_nWidth = 0x10; // int32
                 constexpr std::ptrdiff_t m_nHeight = 0x14; // int32
-                constexpr std::ptrdiff_t m_bundleTypes = 0x18; // 
-                constexpr std::ptrdiff_t m_morphDatas = 0x30; // CUtlVector<CMorphData>
+                constexpr std::ptrdiff_t m_bundleTypes = 0x18; // CUtlVector<MorphBundleType_t>
+                constexpr std::ptrdiff_t m_morphDatas = 0x30; // 
                 constexpr std::ptrdiff_t m_pTextureAtlas = 0x48; // CStrongHandle<InfoForResourceTypeCTextureBase>
-                constexpr std::ptrdiff_t m_FlexDesc = 0x50; // CUtlVector<CFlexDesc>
-                constexpr std::ptrdiff_t m_FlexControllers = 0x68; // CUtlVector<CFlexController>
+                constexpr std::ptrdiff_t m_FlexDesc = 0x50; // 
+                constexpr std::ptrdiff_t m_FlexControllers = 0x68; // 
                 constexpr std::ptrdiff_t m_FlexRules = 0x80; // CUtlVector<CFlexRule>
             }
             // Parent: CNmBoolValueNode__CDefinition
@@ -5550,7 +5550,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pParamListUpdater = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 constexpr std::ptrdiff_t m_pTagManagerUpdater = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
                 constexpr std::ptrdiff_t m_scriptManager = 0x70; // CSmartPtr<CAnimScriptManager>
-                constexpr std::ptrdiff_t m_settings = 0x78; // 
+                constexpr std::ptrdiff_t m_settings = 0x78; // CAnimGraphSettingsManager
                 constexpr std::ptrdiff_t m_pStaticPoseCache = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
                 constexpr std::ptrdiff_t m_pSkeleton = 0xB0; // 
                 constexpr std::ptrdiff_t m_rootNodePath = 0xB8; // CAnimNodePath
@@ -5757,7 +5757,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace ParamSpan_t {
-                constexpr std::ptrdiff_t m_samples = 0x0; // CUtlVector<ParamSpanSample_t>
+                constexpr std::ptrdiff_t m_samples = 0x0; // 
                 constexpr std::ptrdiff_t m_hParam = 0x18; // CAnimParamHandle
                 constexpr std::ptrdiff_t m_eParamType = 0x1A; // AnimParamType_t
                 constexpr std::ptrdiff_t m_flStartCycle = 0x1C; // float32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-07 00:13:21.027238900 UTC
+// 2025-02-14 17:50:36.879912800 UTC
 
 #pragma once
 
@@ -180,7 +180,7 @@ namespace cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             namespace CPulseCell_Step_PublicOutput {
-                constexpr std::ptrdiff_t m_OutputIndex = 0x48; // 
+                constexpr std::ptrdiff_t m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
             }
             // Parent: CPulseCell_BaseValue
             // Field count: 0
@@ -742,7 +742,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nDestInstruction = 0x18; // int32
                 constexpr std::ptrdiff_t m_nCallInfoIndex = 0x1C; // PulseRuntimeCallInfoIndex_t
                 constexpr std::ptrdiff_t m_nConstIdx = 0x20; // 
-                constexpr std::ptrdiff_t m_nDomainValueIdx = 0x22; // PulseRuntimeDomainValueIndex_t
+                constexpr std::ptrdiff_t m_nDomainValueIdx = 0x22; // 
                 constexpr std::ptrdiff_t m_nBlackboardReferenceIdx = 0x24; // PulseRuntimeBlackboardReferenceIndex_t
             }
             // Parent: None

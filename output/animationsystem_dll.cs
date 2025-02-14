@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-07 00:13:21.027238900 UTC
+// 2025-02-14 17:50:36.879912800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1717,7 +1717,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CMorphData {
             public const nint m_name = 0x0; // CUtlString
-            public const nint m_morphRectDatas = 0x8; // 
+            public const nint m_morphRectDatas = 0x8; // CUtlVector<CMorphRectData>
         }
         // Parent: CUnaryUpdateNode
         // Field count: 4
@@ -3417,7 +3417,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nYTopDst = 0x2; // int16
             public const nint m_flUWidthSrc = 0x4; // float32
             public const nint m_flVHeightSrc = 0x8; // float32
-            public const nint m_bundleDatas = 0x10; // 
+            public const nint m_bundleDatas = 0x10; // CUtlVector<CMorphBundleData>
         }
         // Parent: None
         // Field count: 5
@@ -3919,7 +3919,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bMoveVarsDisabled = 0x68; // bool
             public const nint m_bNetworkPath = 0x69; // bool
             public const nint m_bNetworkFacing = 0x6A; // bool
-            public const nint m_paramHandles = 0x6B; // CAnimParamHandle[30]
+            public const nint m_paramHandles = 0x6B; // 
         }
         // Parent: CModelConfigElement
         // Field count: 1
@@ -4311,11 +4311,11 @@ namespace CS2Dumper.Schemas {
         public static class CMorphSetData {
             public const nint m_nWidth = 0x10; // int32
             public const nint m_nHeight = 0x14; // int32
-            public const nint m_bundleTypes = 0x18; // 
-            public const nint m_morphDatas = 0x30; // CUtlVector<CMorphData>
+            public const nint m_bundleTypes = 0x18; // CUtlVector<MorphBundleType_t>
+            public const nint m_morphDatas = 0x30; // 
             public const nint m_pTextureAtlas = 0x48; // CStrongHandle<InfoForResourceTypeCTextureBase>
-            public const nint m_FlexDesc = 0x50; // CUtlVector<CFlexDesc>
-            public const nint m_FlexControllers = 0x68; // CUtlVector<CFlexController>
+            public const nint m_FlexDesc = 0x50; // 
+            public const nint m_FlexControllers = 0x68; // 
             public const nint m_FlexRules = 0x80; // CUtlVector<CFlexRule>
         }
         // Parent: CNmBoolValueNode__CDefinition
@@ -5545,7 +5545,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_pParamListUpdater = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
             public const nint m_pTagManagerUpdater = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
             public const nint m_scriptManager = 0x70; // CSmartPtr<CAnimScriptManager>
-            public const nint m_settings = 0x78; // 
+            public const nint m_settings = 0x78; // CAnimGraphSettingsManager
             public const nint m_pStaticPoseCache = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
             public const nint m_pSkeleton = 0xB0; // 
             public const nint m_rootNodePath = 0xB8; // CAnimNodePath
@@ -5752,7 +5752,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class ParamSpan_t {
-            public const nint m_samples = 0x0; // CUtlVector<ParamSpanSample_t>
+            public const nint m_samples = 0x0; // 
             public const nint m_hParam = 0x18; // CAnimParamHandle
             public const nint m_eParamType = 0x1A; // AnimParamType_t
             public const nint m_flStartCycle = 0x1C; // float32

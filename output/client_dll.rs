@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-07 00:13:21.027238900 UTC
+// 2025-02-14 17:50:36.879912800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -451,7 +451,7 @@ pub mod cs2_dumper {
             pub mod C_BaseModelEntity {
                 pub const m_CRenderComponent: usize = 0xA50; // CRenderComponent*
                 pub const m_CHitboxComponent: usize = 0xA58; // CHitboxComponent
-                pub const m_LastHitGroup: usize = 0xA80; // 
+                pub const m_LastHitGroup: usize = 0xA80; // HitGroup_t
                 pub const m_bInitModelEffects: usize = 0xAA8; // bool
                 pub const m_bIsStaticProp: usize = 0xAA9; // bool
                 pub const m_nLastAddDecal: usize = 0xAAC; // int32
@@ -522,7 +522,7 @@ pub mod cs2_dumper {
                 pub const m_unVerticalAlign: usize = 0xF00; // uint32
                 pub const m_unOrientation: usize = 0xF04; // uint32
                 pub const m_bAllowInteractionFromAllSceneWorlds: usize = 0xF08; // bool
-                pub const m_vecCSSClasses: usize = 0xF10; // 
+                pub const m_vecCSSClasses: usize = 0xF10; // C_NetworkUtlVectorBase<CUtlSymbolLarge>
             }
             // Parent: C_BaseModelEntity
             // Field count: 2
@@ -896,7 +896,7 @@ pub mod cs2_dumper {
                 pub const m_bReleaseRagdoll: usize = 0xFA4; // bool
                 pub const m_iEyeAttachment: usize = 0xFA5; // AttachmentHandle_t
                 pub const m_bFadingOut: usize = 0xFA6; // bool
-                pub const m_flScaleEnd: usize = 0xFA8; // float32[10]
+                pub const m_flScaleEnd: usize = 0xFA8; // 
                 pub const m_flScaleTimeStart: usize = 0xFD0; // GameTime_t[10]
                 pub const m_flScaleTimeEnd: usize = 0xFF8; // GameTime_t[10]
             }
@@ -2428,7 +2428,7 @@ pub mod cs2_dumper {
             pub mod C_C4 {
                 pub const m_szScreenText: usize = 0x1B20; // char[32]
                 pub const m_activeLightParticleIndex: usize = 0x1B40; // ParticleIndex_t
-                pub const m_eActiveLightEffect: usize = 0x1B44; // C4LightEffect_t
+                pub const m_eActiveLightEffect: usize = 0x1B44; // 
                 pub const m_bStartedArming: usize = 0x1B48; // bool
                 pub const m_fArmedTime: usize = 0x1B4C; // GameTime_t
                 pub const m_bBombPlacedAnimation: usize = 0x1B50; // bool
@@ -5258,7 +5258,7 @@ pub mod cs2_dumper {
             // MNetworkExcludeByName
             // NetworkVarNames: m_ShardDesc (shard_model_desc_t)
             pub mod C_ShatterGlassShardPhysics {
-                pub const m_ShardDesc: usize = 0x1120; // 
+                pub const m_ShardDesc: usize = 0x1120; // shard_model_desc_t
             }
             // Parent: C_CSWeaponBaseGun
             // Field count: 0
@@ -5891,7 +5891,7 @@ pub mod cs2_dumper {
                 pub const m_bAnimTimeChanged: usize = 0x54D; // bool
                 pub const m_bSimulationTimeChanged: usize = 0x54E; // bool
                 pub const m_sUniqueHammerID: usize = 0x558; // CUtlString
-                pub const m_nBloodType: usize = 0x560; // 
+                pub const m_nBloodType: usize = 0x560; // BloodType
             }
             // Parent: None
             // Field count: 11
@@ -6071,7 +6071,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_bIsActive (bool)
             pub mod C_EnvScreenOverlay {
                 pub const m_iszOverlayNames: usize = 0x568; // CUtlSymbolLarge[10]
-                pub const m_flOverlayTimes: usize = 0x5B8; // float32[10]
+                pub const m_flOverlayTimes: usize = 0x5B8; // 
                 pub const m_flStartTime: usize = 0x5E0; // GameTime_t
                 pub const m_iDesiredOverlay: usize = 0x5E4; // int32
                 pub const m_bIsActive: usize = 0x5E8; // bool
@@ -6101,7 +6101,7 @@ pub mod cs2_dumper {
                 pub const m_szMuzzleFlashThirdPersonParticle: usize = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_szMuzzleFlashThirdPersonParticleAlt: usize = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_szTracerParticle: usize = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_GearSlot: usize = 0xCF0; // gear_slot_t
+                pub const m_GearSlot: usize = 0xCF0; // 
                 pub const m_GearSlotPosition: usize = 0xCF4; // int32
                 pub const m_DefaultLoadoutSlot: usize = 0xCF8; // loadout_slot_t
                 pub const m_sWrongTeamMsg: usize = 0xD00; // CUtlString
@@ -6370,7 +6370,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_closedAngles (QAngle)
             // NetworkVarNames: m_hMaster (CHandle<C_BasePropDoor>)
             pub mod C_BasePropDoor {
-                pub const m_eDoorState: usize = 0x1238; // 
+                pub const m_eDoorState: usize = 0x1238; // DoorState_t
                 pub const m_modelChanged: usize = 0x123C; // bool
                 pub const m_bLocked: usize = 0x123D; // bool
                 pub const m_closedPosition: usize = 0x1240; // Vector
@@ -6395,7 +6395,7 @@ pub mod cs2_dumper {
                 pub const m_inertiaScale: usize = 0x1118; // float32
                 pub const m_vecDamagePosition: usize = 0x111C; // Vector
                 pub const m_vecDamageDirection: usize = 0x1128; // Vector
-                pub const m_nDamageType: usize = 0x1134; // DamageTypes_t
+                pub const m_nDamageType: usize = 0x1134; // 
             }
             // Parent: C_CSGO_TeamPreviewCamera
             // Field count: 0

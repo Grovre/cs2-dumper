@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-07 00:13:21.027238900 UTC
+// 2025-02-14 17:50:36.879912800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1814,7 +1814,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CMorphData {
                 pub const m_name: usize = 0x0; // CUtlString
-                pub const m_morphRectDatas: usize = 0x8; // 
+                pub const m_morphRectDatas: usize = 0x8; // CUtlVector<CMorphRectData>
             }
             // Parent: CUnaryUpdateNode
             // Field count: 4
@@ -3514,7 +3514,7 @@ pub mod cs2_dumper {
                 pub const m_nYTopDst: usize = 0x2; // int16
                 pub const m_flUWidthSrc: usize = 0x4; // float32
                 pub const m_flVHeightSrc: usize = 0x8; // float32
-                pub const m_bundleDatas: usize = 0x10; // 
+                pub const m_bundleDatas: usize = 0x10; // CUtlVector<CMorphBundleData>
             }
             // Parent: None
             // Field count: 5
@@ -4016,7 +4016,7 @@ pub mod cs2_dumper {
                 pub const m_bMoveVarsDisabled: usize = 0x68; // bool
                 pub const m_bNetworkPath: usize = 0x69; // bool
                 pub const m_bNetworkFacing: usize = 0x6A; // bool
-                pub const m_paramHandles: usize = 0x6B; // CAnimParamHandle[30]
+                pub const m_paramHandles: usize = 0x6B; // 
             }
             // Parent: CModelConfigElement
             // Field count: 1
@@ -4408,11 +4408,11 @@ pub mod cs2_dumper {
             pub mod CMorphSetData {
                 pub const m_nWidth: usize = 0x10; // int32
                 pub const m_nHeight: usize = 0x14; // int32
-                pub const m_bundleTypes: usize = 0x18; // 
-                pub const m_morphDatas: usize = 0x30; // CUtlVector<CMorphData>
+                pub const m_bundleTypes: usize = 0x18; // CUtlVector<MorphBundleType_t>
+                pub const m_morphDatas: usize = 0x30; // 
                 pub const m_pTextureAtlas: usize = 0x48; // CStrongHandle<InfoForResourceTypeCTextureBase>
-                pub const m_FlexDesc: usize = 0x50; // CUtlVector<CFlexDesc>
-                pub const m_FlexControllers: usize = 0x68; // CUtlVector<CFlexController>
+                pub const m_FlexDesc: usize = 0x50; // 
+                pub const m_FlexControllers: usize = 0x68; // 
                 pub const m_FlexRules: usize = 0x80; // CUtlVector<CFlexRule>
             }
             // Parent: CNmBoolValueNode__CDefinition
@@ -5642,7 +5642,7 @@ pub mod cs2_dumper {
                 pub const m_pParamListUpdater: usize = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 pub const m_pTagManagerUpdater: usize = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
                 pub const m_scriptManager: usize = 0x70; // CSmartPtr<CAnimScriptManager>
-                pub const m_settings: usize = 0x78; // 
+                pub const m_settings: usize = 0x78; // CAnimGraphSettingsManager
                 pub const m_pStaticPoseCache: usize = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
                 pub const m_pSkeleton: usize = 0xB0; // 
                 pub const m_rootNodePath: usize = 0xB8; // CAnimNodePath
@@ -5849,7 +5849,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod ParamSpan_t {
-                pub const m_samples: usize = 0x0; // CUtlVector<ParamSpanSample_t>
+                pub const m_samples: usize = 0x0; // 
                 pub const m_hParam: usize = 0x18; // CAnimParamHandle
                 pub const m_eParamType: usize = 0x1A; // AnimParamType_t
                 pub const m_flStartCycle: usize = 0x1C; // float32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-07 00:13:21.027238900 UTC
+// 2025-02-14 17:50:36.879912800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -175,7 +175,7 @@ namespace CS2Dumper.Schemas {
         // MPulseCellMethodBindings
         // MPulseCellOutflowHookInfo
         public static class CPulseCell_Step_PublicOutput {
-            public const nint m_OutputIndex = 0x48; // 
+            public const nint m_OutputIndex = 0x48; // PulseRuntimeOutputIndex_t
         }
         // Parent: CPulseCell_BaseValue
         // Field count: 0
@@ -737,7 +737,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nDestInstruction = 0x18; // int32
             public const nint m_nCallInfoIndex = 0x1C; // PulseRuntimeCallInfoIndex_t
             public const nint m_nConstIdx = 0x20; // 
-            public const nint m_nDomainValueIdx = 0x22; // PulseRuntimeDomainValueIndex_t
+            public const nint m_nDomainValueIdx = 0x22; // 
             public const nint m_nBlackboardReferenceIdx = 0x24; // PulseRuntimeBlackboardReferenceIndex_t
         }
         // Parent: None
