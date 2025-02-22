@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-14 17:50:36.879912800 UTC
+// 2025-02-22 05:45:39.345881800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -86,12 +86,12 @@ pub mod cs2_dumper {
             // Parent: None
             // Field count: 1
             pub mod VsInputSignature_t {
-                pub const m_elems: usize = 0x0; // CUtlVector<VsInputSignatureElement_t>
+                pub const m_elems: usize = 0x0; // 
             }
             // Parent: None
             // Field count: 7
             pub mod RenderInputLayoutField_t {
-                pub const m_pSemanticName: usize = 0x0; // uint8[32]
+                pub const m_pSemanticName: usize = 0x0; // 
                 pub const m_nSemanticIndex: usize = 0x20; // int32
                 pub const m_Format: usize = 0x24; // uint32
                 pub const m_nOffset: usize = 0x28; // int32

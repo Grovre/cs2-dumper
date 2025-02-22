@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-14 17:50:36.879912800 UTC
+// 2025-02-22 05:45:39.345881800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1337,7 +1337,7 @@ pub mod cs2_dumper {
                 pub const m_hParameterWeaponDepenetrationDistance: usize = 0x74; // CAnimParamHandle
                 pub const m_hParameterWeaponDepenetrationDelta: usize = 0x76; // CAnimParamHandle
                 pub const m_hParameterCameraClearanceDistance: usize = 0x78; // CAnimParamHandle
-                pub const m_opFixedSettings: usize = 0x80; // AimCameraOpFixedSettings_t
+                pub const m_opFixedSettings: usize = 0x80; // 
             }
             // Parent: None
             // Field count: 11
@@ -2327,7 +2327,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmSkeleton {
                 pub const m_ID: usize = 0x0; // CGlobalSymbol
-                pub const m_boneIDs: usize = 0x8; // CUtlLeanVector<CGlobalSymbol>
+                pub const m_boneIDs: usize = 0x8; // 
                 pub const m_parentIndices: usize = 0x18; // CUtlVector<int32>
                 pub const m_parentSpaceReferencePose: usize = 0x30; // CUtlVector<CTransform>
                 pub const m_modelSpaceReferencePose: usize = 0x48; // CUtlVector<CTransform>
@@ -3445,7 +3445,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CJiggleBoneUpdateNode {
-                pub const m_opFixedData: usize = 0x68; // JiggleBoneSettingsList_t
+                pub const m_opFixedData: usize = 0x68; // 
             }
             // Parent: CNmVectorValueNode__CDefinition
             // Field count: 1
@@ -3681,9 +3681,9 @@ pub mod cs2_dumper {
                 pub const m_localS1SeqDescArray: usize = 0x40; // CUtlVector<CSeqS1SeqDesc>
                 pub const m_localMultiSeqDescArray: usize = 0x58; // CUtlVector<CSeqS1SeqDesc>
                 pub const m_localSynthAnimDescArray: usize = 0x70; // CUtlVector<CSeqSynthAnimDesc>
-                pub const m_localCmdSeqDescArray: usize = 0x88; // CUtlVector<CSeqCmdSeqDesc>
-                pub const m_localBoneMaskArray: usize = 0xA0; // CUtlVector<CSeqBoneMaskList>
-                pub const m_localScaleSetArray: usize = 0xB8; // CUtlVector<CSeqScaleSet>
+                pub const m_localCmdSeqDescArray: usize = 0x88; // 
+                pub const m_localBoneMaskArray: usize = 0xA0; // 
+                pub const m_localScaleSetArray: usize = 0xB8; // 
                 pub const m_localBoneNameArray: usize = 0xD0; // CUtlVector<CBufferString>
                 pub const m_localNodeName: usize = 0xE8; // CBufferString
                 pub const m_localPoseParamArray: usize = 0xF8; // CUtlVector<CSeqPoseParamDesc>
@@ -4409,10 +4409,10 @@ pub mod cs2_dumper {
                 pub const m_nWidth: usize = 0x10; // int32
                 pub const m_nHeight: usize = 0x14; // int32
                 pub const m_bundleTypes: usize = 0x18; // CUtlVector<MorphBundleType_t>
-                pub const m_morphDatas: usize = 0x30; // 
+                pub const m_morphDatas: usize = 0x30; // CUtlVector<CMorphData>
                 pub const m_pTextureAtlas: usize = 0x48; // CStrongHandle<InfoForResourceTypeCTextureBase>
-                pub const m_FlexDesc: usize = 0x50; // 
-                pub const m_FlexControllers: usize = 0x68; // 
+                pub const m_FlexDesc: usize = 0x50; // CUtlVector<CFlexDesc>
+                pub const m_FlexControllers: usize = 0x68; // CUtlVector<CFlexController>
                 pub const m_FlexRules: usize = 0x80; // CUtlVector<CFlexRule>
             }
             // Parent: CNmBoolValueNode__CDefinition
@@ -4643,7 +4643,7 @@ pub mod cs2_dumper {
                 pub const m_trackCompressionSettings: usize = 0x28; // CUtlVector<NmCompressionSettings_t>
                 pub const m_compressedPoseOffsets: usize = 0x40; // CUtlVector<uint32>
                 pub const m_syncTrack: usize = 0xA0; // CNmSyncTrack
-                pub const m_rootMotion: usize = 0x150; // CNmRootMotionData
+                pub const m_rootMotion: usize = 0x150; // 
                 pub const m_bIsAdditive: usize = 0x1A0; // bool
             }
             // Parent: CAnimActionUpdater
@@ -5644,7 +5644,7 @@ pub mod cs2_dumper {
                 pub const m_scriptManager: usize = 0x70; // CSmartPtr<CAnimScriptManager>
                 pub const m_settings: usize = 0x78; // CAnimGraphSettingsManager
                 pub const m_pStaticPoseCache: usize = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
-                pub const m_pSkeleton: usize = 0xB0; // 
+                pub const m_pSkeleton: usize = 0xB0; // CSmartPtr<CAnimSkeleton>
                 pub const m_rootNodePath: usize = 0xB8; // CAnimNodePath
             }
             // Parent: None
@@ -5849,7 +5849,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod ParamSpan_t {
-                pub const m_samples: usize = 0x0; // 
+                pub const m_samples: usize = 0x0; // CUtlVector<ParamSpanSample_t>
                 pub const m_hParam: usize = 0x18; // CAnimParamHandle
                 pub const m_eParamType: usize = 0x1A; // AnimParamType_t
                 pub const m_flStartCycle: usize = 0x1C; // float32

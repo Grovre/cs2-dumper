@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-14 17:50:36.879912800 UTC
+// 2025-02-22 05:45:39.345881800 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -84,8 +84,8 @@ namespace CS2Dumper.Interfaces {
     }
     // Module: matchmaking.dll
     public static class MatchmakingDll {
-        public const nint GameTypes001 = 0x1A41B0;
-        public const nint MATCHFRAMEWORK_001 = 0x1AC380;
+        public const nint GameTypes001 = 0x1A3190;
+        public const nint MATCHFRAMEWORK_001 = 0x1AB360;
     }
     // Module: materialsystem2.dll
     public static class Materialsystem2Dll {

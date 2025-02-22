@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-14 17:50:36.879912800 UTC
+// 2025-02-22 05:45:39.345881800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -717,7 +717,7 @@ pub mod cs2_dumper {
                 pub const m_nCsViewPunchAngleTick: usize = 0x4C; // GameTick_t
                 pub const m_flCsViewPunchAngleTickRatio: usize = 0x50; // float32
                 pub const m_PlayerFog: usize = 0x58; // C_fogplayerparams_t
-                pub const m_hColorCorrectionCtrl: usize = 0x98; // 
+                pub const m_hColorCorrectionCtrl: usize = 0x98; // CHandle<C_ColorCorrection>
                 pub const m_hViewEntity: usize = 0x9C; // CHandle<C_BaseEntity>
                 pub const m_hTonemapController: usize = 0xA0; // CHandle<C_TonemapController2>
                 pub const m_audio: usize = 0xA8; // audioparams_t
@@ -1657,7 +1657,7 @@ pub mod cs2_dumper {
             // Field count: 2
             pub mod CSkyboxReference {
                 pub const m_worldGroupId: usize = 0x568; // WorldGroupId_t
-                pub const m_hSkyCamera: usize = 0x56C; // CHandle<C_SkyCamera>
+                pub const m_hSkyCamera: usize = 0x56C; // 
             }
             // Parent: C_TonemapController2
             // Field count: 0
@@ -2428,7 +2428,7 @@ pub mod cs2_dumper {
             pub mod C_C4 {
                 pub const m_szScreenText: usize = 0x1B20; // char[32]
                 pub const m_activeLightParticleIndex: usize = 0x1B40; // ParticleIndex_t
-                pub const m_eActiveLightEffect: usize = 0x1B44; // 
+                pub const m_eActiveLightEffect: usize = 0x1B44; // C4LightEffect_t
                 pub const m_bStartedArming: usize = 0x1B48; // bool
                 pub const m_fArmedTime: usize = 0x1B4C; // GameTime_t
                 pub const m_bBombPlacedAnimation: usize = 0x1B50; // bool
@@ -2599,7 +2599,7 @@ pub mod cs2_dumper {
                 pub const m_iWeight: usize = 0x308; // int32
                 pub const m_bAutoSwitchTo: usize = 0x30C; // bool
                 pub const m_bAutoSwitchFrom: usize = 0x30D; // bool
-                pub const m_iRumbleEffect: usize = 0x310; // RumbleEffect_t
+                pub const m_iRumbleEffect: usize = 0x310; // 
                 pub const m_iSlot: usize = 0x314; // int32
                 pub const m_iPosition: usize = 0x318; // int32
                 pub const m_aShootSounds: usize = 0x320; // CUtlOrderedMap<WeaponSound_t,CSoundEventName>
@@ -2658,7 +2658,7 @@ pub mod cs2_dumper {
                 pub const m_nBucketCount: usize = 0x210; // int32
                 pub const m_flInterval: usize = 0x214; // float32
                 pub const m_flFinalValue: usize = 0x218; // float32
-                pub const m_nCompressionType: usize = 0x21C; // TimelineCompression_t
+                pub const m_nCompressionType: usize = 0x21C; // 
                 pub const m_bStopped: usize = 0x220; // bool
             }
             // Parent: C_CSWeaponBaseGun
@@ -3267,7 +3267,7 @@ pub mod cs2_dumper {
                 pub const m_flLuminaireAnisotropy: usize = 0xD50; // float32
                 pub const m_LightStyleString: usize = 0xD58; // CUtlString
                 pub const m_flLightStyleStartTime: usize = 0xD60; // GameTime_t
-                pub const m_QueuedLightStyleStrings: usize = 0xD68; // C_NetworkUtlVectorBase<CUtlString>
+                pub const m_QueuedLightStyleStrings: usize = 0xD68; // 
                 pub const m_LightStyleEvents: usize = 0xD80; // C_NetworkUtlVectorBase<CUtlString>
                 pub const m_LightStyleTargets: usize = 0xD98; // C_NetworkUtlVectorBase<CHandle<C_BaseModelEntity>>
                 pub const m_StyleEvent: usize = 0xDB0; // CEntityIOOutput[4]
@@ -3488,7 +3488,7 @@ pub mod cs2_dumper {
             pub mod CPlayer_ObserverServices {
                 pub const m_iObserverMode: usize = 0x40; // uint8
                 pub const m_hObserverTarget: usize = 0x44; // CHandle<C_BaseEntity>
-                pub const m_iObserverLastMode: usize = 0x48; // ObserverMode_t
+                pub const m_iObserverLastMode: usize = 0x48; // 
                 pub const m_bForcedObserverMode: usize = 0x4C; // bool
                 pub const m_flObserverChaseDistance: usize = 0x50; // float32
                 pub const m_flObserverChaseDistanceCalcTime: usize = 0x54; // GameTime_t
@@ -4768,7 +4768,7 @@ pub mod cs2_dumper {
                 pub const m_bAsynchronouslySpawnEntities: usize = 0x584; // bool
                 pub const m_pOutputOnSpawned: usize = 0x588; // CEntityIOOutput
                 pub const m_clientOnlyEntityBehavior: usize = 0x5B0; // PointTemplateClientOnlyEntityBehavior_t
-                pub const m_ownerSpawnGroupType: usize = 0x5B4; // PointTemplateOwnerSpawnGroupType_t
+                pub const m_ownerSpawnGroupType: usize = 0x5B4; // 
                 pub const m_createdSpawnGroupHandles: usize = 0x5B8; // CUtlVector<uint32>
                 pub const m_SpawnedEntityHandles: usize = 0x5D0; // CUtlVector<CEntityHandle>
                 pub const m_ScriptSpawnCallback: usize = 0x5E8; // HSCRIPT
@@ -6101,7 +6101,7 @@ pub mod cs2_dumper {
                 pub const m_szMuzzleFlashThirdPersonParticle: usize = 0xA50; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_szMuzzleFlashThirdPersonParticleAlt: usize = 0xB30; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
                 pub const m_szTracerParticle: usize = 0xC10; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
-                pub const m_GearSlot: usize = 0xCF0; // 
+                pub const m_GearSlot: usize = 0xCF0; // gear_slot_t
                 pub const m_GearSlotPosition: usize = 0xCF4; // int32
                 pub const m_DefaultLoadoutSlot: usize = 0xCF8; // loadout_slot_t
                 pub const m_sWrongTeamMsg: usize = 0xD00; // CUtlString
