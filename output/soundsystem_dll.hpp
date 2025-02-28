@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-22 05:45:39.345881800 UTC
+// 2025-02-28 05:42:17.547276600 UTC
 
 #pragma once
 
@@ -549,7 +549,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flLowCutoffFreq = 0x18; // float32
                 constexpr std::ptrdiff_t m_flHighCutoffFreq = 0x1C; // float32
                 constexpr std::ptrdiff_t m_bPeakMode = 0x20; // bool
-                constexpr std::ptrdiff_t m_bandDesc = 0x24; // VMixDynamicsBand_t[3]
+                constexpr std::ptrdiff_t m_bandDesc = 0x24; // 
             }
             // Parent: None
             // Field count: 6
@@ -768,7 +768,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CSosSoundEventGroupListSchema {
-                constexpr std::ptrdiff_t m_groupList = 0x0; // CUtlVector<CSosSoundEventGroupSchema>
+                constexpr std::ptrdiff_t m_groupList = 0x0; // 
             }
             // Parent: CSosGroupBranchPattern
             // Field count: 5

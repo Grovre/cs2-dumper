@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-22 05:45:39.345881800 UTC
+// 2025-02-28 05:42:17.547276600 UTC
 
 #pragma once
 
@@ -83,12 +83,12 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 1
             namespace VsInputSignature_t {
-                constexpr std::ptrdiff_t m_elems = 0x0; // 
+                constexpr std::ptrdiff_t m_elems = 0x0; // CUtlVector<VsInputSignatureElement_t>
             }
             // Parent: None
             // Field count: 7
             namespace RenderInputLayoutField_t {
-                constexpr std::ptrdiff_t m_pSemanticName = 0x0; // 
+                constexpr std::ptrdiff_t m_pSemanticName = 0x0; // uint8[32]
                 constexpr std::ptrdiff_t m_nSemanticIndex = 0x20; // int32
                 constexpr std::ptrdiff_t m_Format = 0x24; // uint32
                 constexpr std::ptrdiff_t m_nOffset = 0x28; // int32

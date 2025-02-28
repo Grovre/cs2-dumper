@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-22 05:45:39.345881800 UTC
+// 2025-02-28 05:42:17.547276600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2327,7 +2327,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmSkeleton {
                 pub const m_ID: usize = 0x0; // CGlobalSymbol
-                pub const m_boneIDs: usize = 0x8; // 
+                pub const m_boneIDs: usize = 0x8; // CUtlLeanVector<CGlobalSymbol>
                 pub const m_parentIndices: usize = 0x18; // CUtlVector<int32>
                 pub const m_parentSpaceReferencePose: usize = 0x30; // CUtlVector<CTransform>
                 pub const m_modelSpaceReferencePose: usize = 0x48; // CUtlVector<CTransform>
@@ -3445,7 +3445,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CJiggleBoneUpdateNode {
-                pub const m_opFixedData: usize = 0x68; // 
+                pub const m_opFixedData: usize = 0x68; // JiggleBoneSettingsList_t
             }
             // Parent: CNmVectorValueNode__CDefinition
             // Field count: 1
@@ -3678,12 +3678,12 @@ pub mod cs2_dumper {
                 pub const m_sName: usize = 0x10; // CBufferString
                 pub const m_nFlags: usize = 0x20; // uint32
                 pub const m_localSequenceNameArray: usize = 0x28; // CUtlVector<CBufferString>
-                pub const m_localS1SeqDescArray: usize = 0x40; // CUtlVector<CSeqS1SeqDesc>
-                pub const m_localMultiSeqDescArray: usize = 0x58; // CUtlVector<CSeqS1SeqDesc>
-                pub const m_localSynthAnimDescArray: usize = 0x70; // CUtlVector<CSeqSynthAnimDesc>
-                pub const m_localCmdSeqDescArray: usize = 0x88; // 
-                pub const m_localBoneMaskArray: usize = 0xA0; // 
-                pub const m_localScaleSetArray: usize = 0xB8; // 
+                pub const m_localS1SeqDescArray: usize = 0x40; // 
+                pub const m_localMultiSeqDescArray: usize = 0x58; // 
+                pub const m_localSynthAnimDescArray: usize = 0x70; // 
+                pub const m_localCmdSeqDescArray: usize = 0x88; // CUtlVector<CSeqCmdSeqDesc>
+                pub const m_localBoneMaskArray: usize = 0xA0; // CUtlVector<CSeqBoneMaskList>
+                pub const m_localScaleSetArray: usize = 0xB8; // CUtlVector<CSeqScaleSet>
                 pub const m_localBoneNameArray: usize = 0xD0; // CUtlVector<CBufferString>
                 pub const m_localNodeName: usize = 0xE8; // CBufferString
                 pub const m_localPoseParamArray: usize = 0xF8; // CUtlVector<CSeqPoseParamDesc>
@@ -4643,7 +4643,7 @@ pub mod cs2_dumper {
                 pub const m_trackCompressionSettings: usize = 0x28; // CUtlVector<NmCompressionSettings_t>
                 pub const m_compressedPoseOffsets: usize = 0x40; // CUtlVector<uint32>
                 pub const m_syncTrack: usize = 0xA0; // CNmSyncTrack
-                pub const m_rootMotion: usize = 0x150; // 
+                pub const m_rootMotion: usize = 0x150; // CNmRootMotionData
                 pub const m_bIsAdditive: usize = 0x1A0; // bool
             }
             // Parent: CAnimActionUpdater

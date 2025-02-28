@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-22 05:45:39.345881800 UTC
+// 2025-02-28 05:42:17.547276600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: rendersystemdx11.dll
@@ -78,12 +78,12 @@ namespace CS2Dumper.Schemas {
         // Parent: None
         // Field count: 1
         public static class VsInputSignature_t {
-            public const nint m_elems = 0x0; // 
+            public const nint m_elems = 0x0; // CUtlVector<VsInputSignatureElement_t>
         }
         // Parent: None
         // Field count: 7
         public static class RenderInputLayoutField_t {
-            public const nint m_pSemanticName = 0x0; // 
+            public const nint m_pSemanticName = 0x0; // uint8[32]
             public const nint m_nSemanticIndex = 0x20; // int32
             public const nint m_Format = 0x24; // uint32
             public const nint m_nOffset = 0x28; // int32

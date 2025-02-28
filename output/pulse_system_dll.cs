@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-22 05:45:39.345881800 UTC
+// 2025-02-28 05:42:17.547276600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -736,7 +736,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nChunk = 0x14; // PulseRuntimeChunkIndex_t
             public const nint m_nDestInstruction = 0x18; // int32
             public const nint m_nCallInfoIndex = 0x1C; // PulseRuntimeCallInfoIndex_t
-            public const nint m_nConstIdx = 0x20; // PulseRuntimeConstantIndex_t
+            public const nint m_nConstIdx = 0x20; // 
             public const nint m_nDomainValueIdx = 0x22; // 
             public const nint m_nBlackboardReferenceIdx = 0x24; // PulseRuntimeBlackboardReferenceIndex_t
         }
