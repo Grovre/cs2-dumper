@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 05:42:17.547276600 UTC
+// 2025-03-04 02:03:54.469662100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -187,7 +187,7 @@ pub mod cs2_dumper {
             // MPulseCellMethodBindings
             // MPulseCellOutflowHookInfo
             pub mod CPulseCell_Step_PublicOutput {
-                pub const m_OutputIndex: usize = 0x48; // PulseRuntimeOutputIndex_t
+                pub const m_OutputIndex: usize = 0x48; // 
             }
             // Parent: CPulseCell_BaseValue
             // Field count: 0
@@ -744,12 +744,12 @@ pub mod cs2_dumper {
                 pub const m_nReg0: usize = 0x8; // PulseRuntimeRegisterIndex_t
                 pub const m_nReg1: usize = 0xA; // PulseRuntimeRegisterIndex_t
                 pub const m_nReg2: usize = 0xC; // PulseRuntimeRegisterIndex_t
-                pub const m_nInvokeBindingIndex: usize = 0x10; // 
+                pub const m_nInvokeBindingIndex: usize = 0x10; // PulseRuntimeInvokeIndex_t
                 pub const m_nChunk: usize = 0x14; // PulseRuntimeChunkIndex_t
                 pub const m_nDestInstruction: usize = 0x18; // int32
                 pub const m_nCallInfoIndex: usize = 0x1C; // PulseRuntimeCallInfoIndex_t
                 pub const m_nConstIdx: usize = 0x20; // 
-                pub const m_nDomainValueIdx: usize = 0x22; // 
+                pub const m_nDomainValueIdx: usize = 0x22; // PulseRuntimeDomainValueIndex_t
                 pub const m_nBlackboardReferenceIdx: usize = 0x24; // PulseRuntimeBlackboardReferenceIndex_t
             }
             // Parent: None

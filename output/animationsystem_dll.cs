@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 05:42:17.547276600 UTC
+// 2025-03-04 02:03:54.469662100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1240,7 +1240,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_hParameterWeaponDepenetrationDistance = 0x74; // CAnimParamHandle
             public const nint m_hParameterWeaponDepenetrationDelta = 0x76; // CAnimParamHandle
             public const nint m_hParameterCameraClearanceDistance = 0x78; // CAnimParamHandle
-            public const nint m_opFixedSettings = 0x80; // 
+            public const nint m_opFixedSettings = 0x80; // AimCameraOpFixedSettings_t
         }
         // Parent: None
         // Field count: 11
@@ -3417,7 +3417,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nYTopDst = 0x2; // int16
             public const nint m_flUWidthSrc = 0x4; // float32
             public const nint m_flVHeightSrc = 0x8; // float32
-            public const nint m_bundleDatas = 0x10; // CUtlVector<CMorphBundleData>
+            public const nint m_bundleDatas = 0x10; // 
         }
         // Parent: None
         // Field count: 5
@@ -3581,9 +3581,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_sName = 0x10; // CBufferString
             public const nint m_nFlags = 0x20; // uint32
             public const nint m_localSequenceNameArray = 0x28; // CUtlVector<CBufferString>
-            public const nint m_localS1SeqDescArray = 0x40; // 
-            public const nint m_localMultiSeqDescArray = 0x58; // 
-            public const nint m_localSynthAnimDescArray = 0x70; // 
+            public const nint m_localS1SeqDescArray = 0x40; // CUtlVector<CSeqS1SeqDesc>
+            public const nint m_localMultiSeqDescArray = 0x58; // CUtlVector<CSeqS1SeqDesc>
+            public const nint m_localSynthAnimDescArray = 0x70; // CUtlVector<CSeqSynthAnimDesc>
             public const nint m_localCmdSeqDescArray = 0x88; // CUtlVector<CSeqCmdSeqDesc>
             public const nint m_localBoneMaskArray = 0xA0; // CUtlVector<CSeqBoneMaskList>
             public const nint m_localScaleSetArray = 0xB8; // CUtlVector<CSeqScaleSet>
@@ -3919,7 +3919,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bMoveVarsDisabled = 0x68; // bool
             public const nint m_bNetworkPath = 0x69; // bool
             public const nint m_bNetworkFacing = 0x6A; // bool
-            public const nint m_paramHandles = 0x6B; // 
+            public const nint m_paramHandles = 0x6B; // CAnimParamHandle[30]
         }
         // Parent: CModelConfigElement
         // Field count: 1
@@ -4895,7 +4895,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CFlexRule {
             public const nint m_nFlex = 0x0; // int32
-            public const nint m_FlexOps = 0x8; // CUtlVector<CFlexOp>
+            public const nint m_FlexOps = 0x8; // 
         }
         // Parent: None
         // Field count: 5
@@ -5544,8 +5544,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_components = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
             public const nint m_pParamListUpdater = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
             public const nint m_pTagManagerUpdater = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
-            public const nint m_scriptManager = 0x70; // CSmartPtr<CAnimScriptManager>
-            public const nint m_settings = 0x78; // CAnimGraphSettingsManager
+            public const nint m_scriptManager = 0x70; // 
+            public const nint m_settings = 0x78; // 
             public const nint m_pStaticPoseCache = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
             public const nint m_pSkeleton = 0xB0; // CSmartPtr<CAnimSkeleton>
             public const nint m_rootNodePath = 0xB8; // CAnimNodePath

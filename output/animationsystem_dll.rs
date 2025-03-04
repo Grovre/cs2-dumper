@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 05:42:17.547276600 UTC
+// 2025-03-04 02:03:54.469662100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1337,7 +1337,7 @@ pub mod cs2_dumper {
                 pub const m_hParameterWeaponDepenetrationDistance: usize = 0x74; // CAnimParamHandle
                 pub const m_hParameterWeaponDepenetrationDelta: usize = 0x76; // CAnimParamHandle
                 pub const m_hParameterCameraClearanceDistance: usize = 0x78; // CAnimParamHandle
-                pub const m_opFixedSettings: usize = 0x80; // 
+                pub const m_opFixedSettings: usize = 0x80; // AimCameraOpFixedSettings_t
             }
             // Parent: None
             // Field count: 11
@@ -3514,7 +3514,7 @@ pub mod cs2_dumper {
                 pub const m_nYTopDst: usize = 0x2; // int16
                 pub const m_flUWidthSrc: usize = 0x4; // float32
                 pub const m_flVHeightSrc: usize = 0x8; // float32
-                pub const m_bundleDatas: usize = 0x10; // CUtlVector<CMorphBundleData>
+                pub const m_bundleDatas: usize = 0x10; // 
             }
             // Parent: None
             // Field count: 5
@@ -3678,9 +3678,9 @@ pub mod cs2_dumper {
                 pub const m_sName: usize = 0x10; // CBufferString
                 pub const m_nFlags: usize = 0x20; // uint32
                 pub const m_localSequenceNameArray: usize = 0x28; // CUtlVector<CBufferString>
-                pub const m_localS1SeqDescArray: usize = 0x40; // 
-                pub const m_localMultiSeqDescArray: usize = 0x58; // 
-                pub const m_localSynthAnimDescArray: usize = 0x70; // 
+                pub const m_localS1SeqDescArray: usize = 0x40; // CUtlVector<CSeqS1SeqDesc>
+                pub const m_localMultiSeqDescArray: usize = 0x58; // CUtlVector<CSeqS1SeqDesc>
+                pub const m_localSynthAnimDescArray: usize = 0x70; // CUtlVector<CSeqSynthAnimDesc>
                 pub const m_localCmdSeqDescArray: usize = 0x88; // CUtlVector<CSeqCmdSeqDesc>
                 pub const m_localBoneMaskArray: usize = 0xA0; // CUtlVector<CSeqBoneMaskList>
                 pub const m_localScaleSetArray: usize = 0xB8; // CUtlVector<CSeqScaleSet>
@@ -4016,7 +4016,7 @@ pub mod cs2_dumper {
                 pub const m_bMoveVarsDisabled: usize = 0x68; // bool
                 pub const m_bNetworkPath: usize = 0x69; // bool
                 pub const m_bNetworkFacing: usize = 0x6A; // bool
-                pub const m_paramHandles: usize = 0x6B; // 
+                pub const m_paramHandles: usize = 0x6B; // CAnimParamHandle[30]
             }
             // Parent: CModelConfigElement
             // Field count: 1
@@ -4992,7 +4992,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CFlexRule {
                 pub const m_nFlex: usize = 0x0; // int32
-                pub const m_FlexOps: usize = 0x8; // CUtlVector<CFlexOp>
+                pub const m_FlexOps: usize = 0x8; // 
             }
             // Parent: None
             // Field count: 5
@@ -5641,8 +5641,8 @@ pub mod cs2_dumper {
                 pub const m_components: usize = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
                 pub const m_pParamListUpdater: usize = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 pub const m_pTagManagerUpdater: usize = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
-                pub const m_scriptManager: usize = 0x70; // CSmartPtr<CAnimScriptManager>
-                pub const m_settings: usize = 0x78; // CAnimGraphSettingsManager
+                pub const m_scriptManager: usize = 0x70; // 
+                pub const m_settings: usize = 0x78; // 
                 pub const m_pStaticPoseCache: usize = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
                 pub const m_pSkeleton: usize = 0xB0; // CSmartPtr<CAnimSkeleton>
                 pub const m_rootNodePath: usize = 0xB8; // CAnimNodePath

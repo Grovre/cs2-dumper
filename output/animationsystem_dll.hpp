@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 05:42:17.547276600 UTC
+// 2025-03-04 02:03:54.469662100 UTC
 
 #pragma once
 
@@ -1245,7 +1245,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hParameterWeaponDepenetrationDistance = 0x74; // CAnimParamHandle
                 constexpr std::ptrdiff_t m_hParameterWeaponDepenetrationDelta = 0x76; // CAnimParamHandle
                 constexpr std::ptrdiff_t m_hParameterCameraClearanceDistance = 0x78; // CAnimParamHandle
-                constexpr std::ptrdiff_t m_opFixedSettings = 0x80; // 
+                constexpr std::ptrdiff_t m_opFixedSettings = 0x80; // AimCameraOpFixedSettings_t
             }
             // Parent: None
             // Field count: 11
@@ -3422,7 +3422,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nYTopDst = 0x2; // int16
                 constexpr std::ptrdiff_t m_flUWidthSrc = 0x4; // float32
                 constexpr std::ptrdiff_t m_flVHeightSrc = 0x8; // float32
-                constexpr std::ptrdiff_t m_bundleDatas = 0x10; // CUtlVector<CMorphBundleData>
+                constexpr std::ptrdiff_t m_bundleDatas = 0x10; // 
             }
             // Parent: None
             // Field count: 5
@@ -3586,9 +3586,9 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_sName = 0x10; // CBufferString
                 constexpr std::ptrdiff_t m_nFlags = 0x20; // uint32
                 constexpr std::ptrdiff_t m_localSequenceNameArray = 0x28; // CUtlVector<CBufferString>
-                constexpr std::ptrdiff_t m_localS1SeqDescArray = 0x40; // 
-                constexpr std::ptrdiff_t m_localMultiSeqDescArray = 0x58; // 
-                constexpr std::ptrdiff_t m_localSynthAnimDescArray = 0x70; // 
+                constexpr std::ptrdiff_t m_localS1SeqDescArray = 0x40; // CUtlVector<CSeqS1SeqDesc>
+                constexpr std::ptrdiff_t m_localMultiSeqDescArray = 0x58; // CUtlVector<CSeqS1SeqDesc>
+                constexpr std::ptrdiff_t m_localSynthAnimDescArray = 0x70; // CUtlVector<CSeqSynthAnimDesc>
                 constexpr std::ptrdiff_t m_localCmdSeqDescArray = 0x88; // CUtlVector<CSeqCmdSeqDesc>
                 constexpr std::ptrdiff_t m_localBoneMaskArray = 0xA0; // CUtlVector<CSeqBoneMaskList>
                 constexpr std::ptrdiff_t m_localScaleSetArray = 0xB8; // CUtlVector<CSeqScaleSet>
@@ -3924,7 +3924,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bMoveVarsDisabled = 0x68; // bool
                 constexpr std::ptrdiff_t m_bNetworkPath = 0x69; // bool
                 constexpr std::ptrdiff_t m_bNetworkFacing = 0x6A; // bool
-                constexpr std::ptrdiff_t m_paramHandles = 0x6B; // 
+                constexpr std::ptrdiff_t m_paramHandles = 0x6B; // CAnimParamHandle[30]
             }
             // Parent: CModelConfigElement
             // Field count: 1
@@ -4900,7 +4900,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CFlexRule {
                 constexpr std::ptrdiff_t m_nFlex = 0x0; // int32
-                constexpr std::ptrdiff_t m_FlexOps = 0x8; // CUtlVector<CFlexOp>
+                constexpr std::ptrdiff_t m_FlexOps = 0x8; // 
             }
             // Parent: None
             // Field count: 5
@@ -5549,8 +5549,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_components = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
                 constexpr std::ptrdiff_t m_pParamListUpdater = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 constexpr std::ptrdiff_t m_pTagManagerUpdater = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
-                constexpr std::ptrdiff_t m_scriptManager = 0x70; // CSmartPtr<CAnimScriptManager>
-                constexpr std::ptrdiff_t m_settings = 0x78; // CAnimGraphSettingsManager
+                constexpr std::ptrdiff_t m_scriptManager = 0x70; // 
+                constexpr std::ptrdiff_t m_settings = 0x78; // 
                 constexpr std::ptrdiff_t m_pStaticPoseCache = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
                 constexpr std::ptrdiff_t m_pSkeleton = 0xB0; // CSmartPtr<CAnimSkeleton>
                 constexpr std::ptrdiff_t m_rootNodePath = 0xB8; // CAnimNodePath
