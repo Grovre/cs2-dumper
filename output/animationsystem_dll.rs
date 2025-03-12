@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-04 02:03:54.469662100 UTC
+// 2025-03-12 00:54:18.097097100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2024,8 +2024,8 @@ pub mod cs2_dumper {
             pub mod CNmGraphDefinition {
                 pub const m_persistentNodeIndices: usize = 0x0; // CUtlVector<int16>
                 pub const m_nRootNodeIdx: usize = 0x18; // int16
-                pub const m_controlParameterIDs: usize = 0x20; // CUtlVector<CGlobalSymbol>
-                pub const m_virtualParameterIDs: usize = 0x38; // CUtlVector<CGlobalSymbol>
+                pub const m_controlParameterIDs: usize = 0x20; // 
+                pub const m_virtualParameterIDs: usize = 0x38; // 
                 pub const m_virtualParameterNodeIndices: usize = 0x50; // CUtlVector<int16>
                 pub const m_childGraphSlots: usize = 0x68; // CUtlVector<CNmGraphDefinition::ChildGraphSlot_t>
                 pub const m_externalGraphSlots: usize = 0x80; // CUtlVector<CNmGraphDefinition::ExternalGraphSlot_t>
@@ -2480,7 +2480,7 @@ pub mod cs2_dumper {
                 pub const m_boneSphere: usize = 0x30; // CUtlVector<float32>
                 pub const m_nFlag: usize = 0x48; // CUtlVector<uint32>
                 pub const m_bonePosParent: usize = 0x60; // CUtlVector<Vector>
-                pub const m_boneRotParent: usize = 0x78; // CUtlVector<QuaternionStorage>
+                pub const m_boneRotParent: usize = 0x78; // 
                 pub const m_boneScaleParent: usize = 0x90; // CUtlVector<float32>
             }
             // Parent: None
@@ -3514,7 +3514,7 @@ pub mod cs2_dumper {
                 pub const m_nYTopDst: usize = 0x2; // int16
                 pub const m_flUWidthSrc: usize = 0x4; // float32
                 pub const m_flVHeightSrc: usize = 0x8; // float32
-                pub const m_bundleDatas: usize = 0x10; // 
+                pub const m_bundleDatas: usize = 0x10; // CUtlVector<CMorphBundleData>
             }
             // Parent: None
             // Field count: 5
@@ -3649,7 +3649,7 @@ pub mod cs2_dumper {
                 pub const m_meshGroups: usize = 0x150; // CUtlVector<CUtlString>
                 pub const m_materialGroups: usize = 0x168; // CUtlVector<MaterialGroup_t>
                 pub const m_nDefaultMeshGroupMask: usize = 0x180; // uint64
-                pub const m_modelSkeleton: usize = 0x188; // ModelSkeletonData_t
+                pub const m_modelSkeleton: usize = 0x188; // 
                 pub const m_remappingTable: usize = 0x230; // CUtlVector<int16>
                 pub const m_remappingTableStarts: usize = 0x248; // CUtlVector<uint16>
                 pub const m_boneFlexDrivers: usize = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
@@ -4992,7 +4992,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CFlexRule {
                 pub const m_nFlex: usize = 0x0; // int32
-                pub const m_FlexOps: usize = 0x8; // 
+                pub const m_FlexOps: usize = 0x8; // CUtlVector<CFlexOp>
             }
             // Parent: None
             // Field count: 5
@@ -5641,8 +5641,8 @@ pub mod cs2_dumper {
                 pub const m_components: usize = 0x48; // CUtlVector<CSmartPtr<CAnimComponentUpdater>>
                 pub const m_pParamListUpdater: usize = 0x60; // CSmartPtr<CAnimParameterManagerUpdater>
                 pub const m_pTagManagerUpdater: usize = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
-                pub const m_scriptManager: usize = 0x70; // 
-                pub const m_settings: usize = 0x78; // 
+                pub const m_scriptManager: usize = 0x70; // CSmartPtr<CAnimScriptManager>
+                pub const m_settings: usize = 0x78; // CAnimGraphSettingsManager
                 pub const m_pStaticPoseCache: usize = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
                 pub const m_pSkeleton: usize = 0xB0; // CSmartPtr<CAnimSkeleton>
                 pub const m_rootNodePath: usize = 0xB8; // CAnimNodePath
@@ -6175,7 +6175,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CCPPScriptComponentUpdater {
-                pub const m_scriptsToRun: usize = 0x30; // CUtlVector<CGlobalSymbol>
+                pub const m_scriptsToRun: usize = 0x30; // 
             }
             // Parent: None
             // Field count: 5
